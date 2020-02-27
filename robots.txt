@@ -1,0 +1,12 @@
+User-Agent: *
+Allow: index
+Disallow: /css
+Disallow: /font
+Disallow: /html
+Disallow: /js
+Disallow: /mdb-addons
+Disallow: /scss
+Disallow: /img
+Disallow: /vendor
+
+Sitemap: https://centralmx.tech/sitemap-location.xml
