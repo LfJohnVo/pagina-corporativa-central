@@ -7,7 +7,7 @@ Disallow: /html
 Disallow: /mdb-addons
 Disallow: /mdb-templates
 Disallow: /scss
-Dissalow: vendor
+Dissalow: /vendor
 
 User-agent: Googlebot
 Allow: /
@@ -505,4 +505,4 @@ Allow: /app-ads.txt
 
 Crawl-delay: 5
 
-Sitemap: https://central-mx.com/sitemap-location.xml
+Sitemap: http://central-mx.com/sitemap-location.xml

@@ -16,8 +16,8 @@ if (empty($nombre) || empty($correo) || empty($asunto) || empty($mensaje)) {
     <?php
 } else {
 
-    $to = 'lfernando@integrador-technology.mx'; // aqui coloca el email de quien recibira el correo
-    $from_email = 'lfernando@integrador-technology.mx'; // $_POST[email]
+    $to = 'ventas@central-mx.com'; // aqui coloca el email de quien recibira el correo
+    $from_email = 'no-reply@central-mx.com'; // $_POST[email]
     $subject = 'Correo recibido desde la web de Integrador';
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";

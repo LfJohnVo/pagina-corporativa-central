@@ -73,18 +73,8 @@
 
   #Options -Indexes
   RewriteEngine on
-  RewriteCond %{REQUEST_URI} ^.*/conexion/.*$
-  RewriteRule .*$ forbidden
-
-
-  RewriteEngine on
-   RewriteCond %{REQUEST_URI} ^.*/composer/.*$
+   RewriteCond %{REQUEST_URI} ^.*/vendor/.*$
    RewriteRule .*$ forbidden
-
-
-    RewriteEngine on
-       RewriteCond %{REQUEST_URI} ^.*/process/lkey.*$
-       RewriteRule .*$ forbidden
 
        RewriteEngine on
              RewriteCond %{REQUEST_URI} ^.*/htdocs_error/.*$
@@ -110,7 +100,7 @@
 
 #<IfModule mod_rewrite.c>
 #RewriteCond %{HTTPS} off
-#RewriteRule (.*) https://facturacion.central-mx.com/$1 [R=301,L,QSA]
+#RewriteRule (.*) https://central-mx.com/$1 [R=301,L,QSA]
 #</IfModule>
 
  #RewriteRule ^(cache|includes|logs|tmp)/ - [F]
