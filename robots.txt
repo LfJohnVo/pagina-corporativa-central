@@ -7,7 +7,7 @@ Disallow: /html
 Disallow: /mdb-addons
 Disallow: /mdb-templates
 Disallow: /scss
-Dissalow: /vendor
+Disallow: /vendor
 
 User-agent: Googlebot
 Allow: /

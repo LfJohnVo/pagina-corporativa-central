@@ -28,33 +28,13 @@
     <meta name="robots" content="index,follow"/>
     <meta http-equiv="expires" content="3600"/>
     <link rel="icon" type="icon" href="img/logo.png"/>
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start':
-                new Date().getTime(), event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-5V7KD5Q');</script>
-    <!-- End Google Tag Manager -->
     <style>
         html,body,header,.view{height:100%}@media (min-width:451px) and (max-width:740px){html,body,header,.view{height:500px}}@media (min-width:800px) and (max-width:850px){html,body,header,.view{height:550px}}.carousel-item{height:100%}.carousel-item:nth-child(2){background-repeat:no-repeat;background-size:cover;background-position:center center}.carousel-item:nth-child(3){background-repeat:no-repeat;background-size:cover;background-position:center center}
     </style>
 </head>
 
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5V7KD5Q"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 
 <!-- Navigation & Intro -->
 <header>
@@ -1397,25 +1377,6 @@
 </footer>
 <!-- Footer -->
 
-<!-- Modal video-->
-<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <!-- 16:9 aspect ratio -->
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe id="videolargo" class="embed-responsive-item lazyload"
-                            src="img/videos/central.mp4" muted></iframe>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn aqua-gradient" data-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
 <!--modal bolsa de trabajo-->
 <!-- Modal -->
 <div class="modal fade" id="basicBolsa" tabindex="-1" role="dialog" aria-labelledby="bolsaLabel"
@@ -1683,7 +1644,48 @@
         $(this).attr('src', src);
     });
 </script>
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+        'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-5V7KD5Q');
+</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5V7KD5Q"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
 </body>
 <meta name="author" content="Luis Fernando Jonathan Vargas Osornio">
 <meta name="author" content="vojohn@gmail.com">
 </html>
+
+<!-- Modal video-->
+<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe id="videolargo" class="embed-responsive-item lazyload"
+                            src="img/videos/central.mp4" muted></iframe>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn aqua-gradient" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
